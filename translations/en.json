@@ -1,0 +1,139 @@
+{
+  "permission": {
+    "nav": {
+      "list": "Permissions"
+    },
+    "title": {
+      "list": "Permission list"
+    },
+    "header": {
+      "code": "Code",
+      "category": "Category",
+      "description": "Description"
+    },
+    "message": {
+      "no_items": "No permissions."
+    }
+  },
+  "role": {
+    "nav": {
+      "list": "Roles",
+      "view": "View"
+    },
+    "title": {
+      "list": "Role list",
+      "view": "View role"
+    },
+    "header": {
+      "code": "Code",
+      "name": "Name"
+    },
+    "message": {
+      "no_items": "No roles."
+    }
+  },
+  "user": {
+    "nav": {
+      "list": "Users",
+      "view": "View",
+      "login_history": "Login history"
+    },
+    "title": {
+      "list": "User list",
+      "view": "View user",
+      "login_history": "User login history"
+    },
+    "header": {
+      "id": "ID",
+      "email": "E-mail",
+      "mobile_phone": "Mobile phone",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "middle_name": "Middle name",
+      "full_name": "Full name",
+      "roles": "Roles",
+      "enabled": "Enabled",
+      "last_login": "Last login",
+      "timezone": "Timezone",
+      "locale": "Locale",
+      "created_at": "Created",
+      "updated_at": "Updated"
+    },
+    "button": {
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "message": {
+      "no_items": "No users.",
+      "enabled": "User enabled.",
+      "disabled": "User disabled.",
+      "no_login_history": "No login history."
+    },
+    "dialog": {
+      "enable_confirmation": "Enable user?",
+      "disable_confirmation": "Disable user?"
+    },
+    "tooltip": {
+      "view_login_history": "View login history"
+    }
+  },
+  "user_login": {
+    "header": {
+      "created_at": "Created",
+      "client_ip": "Client IP",
+      "user_agent": "User agent"
+    }
+  },
+  "profile": {
+    "nav": {
+      "view": "Profile",
+      "edit": "Edit"
+    },
+    "title": {
+      "view": "User profile",
+      "edit": "Edit profile"
+    },
+    "button": {
+      "edit": "Edit"
+    }
+  },
+  "password": {
+    "nav": {
+      "change": "Change password"
+    },
+    "title": {
+      "change": "Change password"
+    },
+    "label": {
+      "current_password": "Current password",
+      "new_password": "New password",
+      "repeat_new_password": "Repeat new password"
+    },
+    "button": {
+      "change": "Change password"
+    },
+    "message": {
+      "changed": "Password changed.",
+      "mismatch": "Passwords are not the same."
+    }
+  },
+  "security": {
+    "nav": {
+      "logout": "Logout"
+    },
+    "header": {
+      "login": "Login"
+    },
+    "label": {
+      "email": "E-mail",
+      "password": "Password"
+    },
+    "button": {
+      "login": "Login"
+    },
+    "message": {
+      "login": "Please login to proceed.",
+      "bad_credentials": "Invalid login or password."
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "permission": {
+    "nav": {
+      "list": "Уровни доступа"
+    },
+    "title": {
+      "list": "Список уровней доступа"
+    },
+    "header": {
+      "code": "Код",
+      "category": "Категория",
+      "description": "Описание"
+    },
+    "message": {
+      "no_items": "Нет уровней доступа."
+    }
+  },
+  "role": {
+    "nav": {
+      "list": "Роли",
+      "view": "Просмотр"
+    },
+    "title": {
+      "list": "Список ролей",
+      "view": "Просмотр роли"
+    },
+    "header": {
+      "code": "Код",
+      "name": "Название"
+    },
+    "message": {
+      "no_items": "Нет ролей."
+    }
+  },
+  "user": {
+    "nav": {
+      "list": "Пользователи",
+      "view": "Просмотр",
+      "login_history": "История входов"
+    },
+    "title": {
+      "list": "Список пользователей",
+      "view": "Просмотр пользователя",
+      "login_history": "История входов пользователя"
+    },
+    "header": {
+      "id": "ID",
+      "mobile_phone": "Мобильный",
+      "email": "Эл. почта",
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "middle_name": "Отчество",
+      "full_name": "Полное имя",
+      "roles": "Роли",
+      "enabled": "Включен",
+      "last_login": "Последний вход",
+      "timezone": "Временная зона",
+      "locale": "Локаль",
+      "created_at": "Создан",
+      "updated_at": "Обновлен"
+    },
+    "button": {
+      "enable": "Включить",
+      "disable": "Отключить"
+    },
+    "message": {
+      "no_items": "Нет пользователей.",
+      "enabled": "Пользователь включен.",
+      "disabled": "Пользователь отключен.",
+      "no_login_history": "Нет истории входов."
+    },
+    "dialog": {
+      "enable_confirmation": "Включить пользователя?",
+      "disable_confirmation": "Отключить пользователя?"
+    },
+    "tooltip": {
+      "view_login_history": "Просмотреть историю входов"
+    }
+  },
+  "user_login": {
+    "header": {
+      "created_at": "Время входа",
+      "client_ip": "IP клиента",
+      "user_agent": "Браузер"
+    }
+  },
+  "profile": {
+    "nav": {
+      "view": "Профиль",
+      "edit": "Редактирование"
+    },
+    "title": {
+      "view": "Профиль пользователя",
+      "edit": "Редактирование профиля"
+    },
+    "button": {
+      "edit": "Редактировать"
+    }
+  },
+  "password": {
+    "nav": {
+      "change": "Сменить пароль"
+    },
+    "title": {
+      "change": "Смена пароля"
+    },
+    "label": {
+      "current_password": "Текущий пароль",
+      "new_password": "Новый пароль",
+      "repeat_new_password": "Повторить новый пароль"
+    },
+    "button": {
+      "change": "Сменить пароль"
+    },
+    "message": {
+      "changed": "Пароль изменен.",
+      "mismatch": "Пароли не совпадают."
+    }
+  },
+  "security": {
+    "nav": {
+      "logout": "Выйти"
+    },
+    "header": {
+      "login": "Вход"
+    },
+    "label": {
+      "email": "Эл. почта",
+      "password": "Пароль"
+    },
+    "button": {
+      "login": "Войти"
+    },
+    "message": {
+      "login": "Введите Ваш логин и пароль.",
+      "bad_credentials": "Неверный логин или пароль."
+    }
+  }
+}
