@@ -46,7 +46,7 @@ export default [
             {
                 name: 'user_role_list',
                 path: '/roles',
-                component: () => import(/* webpackChunkName: "user-roles" */ '../pages/RoleList'),
+                component: () => import(/* webpackChunkName: "user-role" */ '../pages/RoleList'),
                 meta: {
                     label: 'role.nav.list',
                     title: 'role.title.list',
@@ -56,7 +56,7 @@ export default [
                     {
                         name: 'user_role_view',
                         path: '/roles/:code',
-                        component: () => import(/* webpackChunkName: "user-roles" */ '../pages/RoleView'),
+                        component: () => import(/* webpackChunkName: "user-role" */ '../pages/RoleView'),
                         meta: {
                             label: 'role.nav.view',
                             title: 'role.title.view',

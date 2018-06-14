@@ -1,4 +1,4 @@
-import http, { handler } from '../../../http'
+import http, { handler } from '~/http'
 
 export default {
     list () {
