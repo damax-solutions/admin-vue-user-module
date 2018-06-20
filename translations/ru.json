@@ -62,7 +62,11 @@
     "label": {
       "first_name": "Имя",
       "last_name": "Фамилия",
-      "middle_name": "Отчество"
+      "middle_name": "Отчество",
+      "timezone": "Временная зона",
+      "locale": "Локаль",
+      "choose_timezone": "Выберите временную зону",
+      "choose_locale": "Выберите локаль"
     },
     "button": {
       "enable": "Включить",

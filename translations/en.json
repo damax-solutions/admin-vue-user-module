@@ -62,7 +62,11 @@
     "label": {
       "first_name": "First name",
       "last_name": "Last name",
-      "middle_name": "Middle name"
+      "middle_name": "Middle name",
+      "timezone": "Timezone",
+      "locale": "Locale",
+      "choose_timezone": "Choose timezone",
+      "choose_locale": "Choose locale"
     },
     "button": {
       "enable": "Enable",
