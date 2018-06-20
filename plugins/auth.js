@@ -1,10 +1,8 @@
 import VueAuth from '@websanova/vue-auth'
 import http from '@websanova/vue-auth/drivers/http/axios.1.x.js'
 import router from '@websanova/vue-auth/drivers/router/vue-router.2.x.js'
-import moment from 'moment'
-import { Validator } from 'vee-validate'
 
-import i18n from '~/translations'
+import { changeLocale } from '../utils'
 
 const auth = {
     request (request, token) {
@@ -46,12 +44,3 @@ export default [VueAuth, {
         return data
     }
 }]
-
-const changeLocale = locale => {
-    i18n.locale = locale
-    moment.locale(locale)
-    Validator.locale = locale
-
-    // axios.defaults.headers.common['Accept-Language'] = lang
-    // document.documentElement.lang = lang
-}

@@ -22,6 +22,7 @@
 <script>
 import { profile as service } from '../services'
 import { NameInput, LocaleInput, TimezoneInput } from '../components'
+import { changeLocale } from '../utils'
 
 const fields = { timezone: '', locale: '' }
 
@@ -61,6 +62,8 @@ export default {
             } finally {
                 this.inProgress = false
             }
+
+            changeLocale(this.item.locale)
 
             this.$notify({ text: this.$t('profile.message.updated'), type: 'success' })
 
