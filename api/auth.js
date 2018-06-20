@@ -7,5 +7,9 @@ export default {
 
     changePassword (data) {
         return handler(http.put('/user/password', data))
+    },
+
+    update (data) {
+        return handler(http.patch('/user', data))
     }
 }

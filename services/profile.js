@@ -13,6 +13,10 @@ class Service {
     changePassword ({ oldPassword, newPassword }) {
         return this.api.changePassword({ oldPassword, newPassword })
     }
+
+    updateInfo ({ name, locale, timezone }) {
+        return this.api.update({ name, locale, timezone })
+    }
 }
 
 export default new Service(api)

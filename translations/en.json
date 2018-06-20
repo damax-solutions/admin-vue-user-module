@@ -59,6 +59,11 @@
       "created_at": "Created",
       "updated_at": "Updated"
     },
+    "label": {
+      "first_name": "First name",
+      "last_name": "Last name",
+      "middle_name": "Middle name"
+    },
     "button": {
       "enable": "Enable",
       "disable": "Disable"
@@ -95,6 +100,9 @@
     },
     "button": {
       "edit": "Edit"
+    },
+    "message": {
+      "updated": "Profile updated."
     }
   },
   "password": {

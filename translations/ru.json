@@ -59,6 +59,11 @@
       "created_at": "Создан",
       "updated_at": "Обновлен"
     },
+    "label": {
+      "first_name": "Имя",
+      "last_name": "Фамилия",
+      "middle_name": "Отчество"
+    },
     "button": {
       "enable": "Включить",
       "disable": "Отключить"
@@ -95,6 +100,9 @@
     },
     "button": {
       "edit": "Редактировать"
+    },
+    "message": {
+      "updated": "Профиль обновлен."
     }
   },
   "password": {
