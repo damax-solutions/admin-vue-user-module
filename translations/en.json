@@ -84,7 +84,9 @@
     },
     "tooltip": {
       "view_login_history": "View login history"
-    }
+    },
+    "email_confirmed": "Confirmed",
+    "email_unconfirmed": "Unconfirmed"
   },
   "user_login": {
     "header": {
@@ -103,7 +105,8 @@
       "edit": "Edit profile"
     },
     "button": {
-      "edit": "Edit"
+      "edit": "Edit",
+      "confirm_email": "Confirm"
     },
     "message": {
       "updated": "Profile updated."

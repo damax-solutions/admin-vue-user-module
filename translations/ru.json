@@ -84,7 +84,9 @@
     },
     "tooltip": {
       "view_login_history": "Просмотреть историю входов"
-    }
+    },
+    "email_confirmed": "Подтверждено",
+    "email_unconfirmed": "Не подтверждено"
   },
   "user_login": {
     "header": {
@@ -103,7 +105,8 @@
       "edit": "Редактирование профиля"
     },
     "button": {
-      "edit": "Редактировать"
+      "edit": "Редактировать",
+      "confirm_email": "Подтвердить"
     },
     "message": {
       "updated": "Профиль обновлен."

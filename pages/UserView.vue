@@ -16,7 +16,11 @@
                     </tr>
                     <tr>
                         <th>{{ $t('user.header.email') }}</th>
-                        <td>{{ item.email }}</td>
+                        <td>
+                            {{ item.email }}
+                            <span v-if="item.emailConfirmed" class="tag is-success">{{ $t('user.email_confirmed') }}</span>
+                            <span v-else class="tag is-danger">{{ $t('user.email_unconfirmed') }}</span>
+                        </td>
                     </tr>
                     <tr>
                         <th>{{ $t('user.header.mobile_phone') }}</th>

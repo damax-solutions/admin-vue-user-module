@@ -12,7 +12,11 @@
                 <tbody>
                     <tr>
                         <th>{{ $t('user.header.email') }}</th>
-                        <td>{{ item.email }}</td>
+                        <td>
+                            {{ item.email }}
+                            <span v-if="item.emailConfirmed" class="tag is-success">{{ $t('user.email_confirmed') }}</span>
+                            <a v-else @click.prevent="confirmEmail"><span class="tag is-primary">{{ $t('profile.button.confirm_email') }}</span></a>
+                        </td>
                     </tr>
                     <tr>
                         <th>{{ $t('user.header.mobile_phone') }}</th>
@@ -52,6 +56,12 @@ export default {
 
     async created () {
         this.item = await service.fetch()
+    },
+
+    methods: {
+        confirmEmail () {
+            console.log('Not implemented.')
+        }
     }
 }
 </script>
