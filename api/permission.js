@@ -1,7 +1,9 @@
-import http, { handler } from '~/http'
+import http, { fetchData } from '~/http'
 
 export default {
+
+    @fetchData
     list () {
-        return handler(http.get('/permissions'))
+        return http.get('/permissions')
     }
 }

@@ -1,11 +1,14 @@
-import http, { handler } from '~/http'
+import http, { fetchData } from '~/http'
 
 export default {
+
+    @fetchData
     localesList () {
-        return handler(http.get('/intl/locales'))
+        return http.get('/intl/locales')
     },
 
+    @fetchData
     timezonesList () {
-        return handler(http.get('/intl/timezones'))
+        return http.get('/intl/timezones')
     }
 }

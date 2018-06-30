@@ -1,15 +1,19 @@
-import http, { handler } from '~/http'
+import http, { fetchData } from '~/http'
 
 export default {
+
+    @fetchData
     get () {
-        return handler(http.get('/user'))
+        return http.get('/user')
     },
 
+    @fetchData
     changePassword (data) {
-        return handler(http.put('/user/password', data))
+        return http.put('/user/password', data)
     },
 
+    @fetchData
     update (data) {
-        return handler(http.patch('/user', data))
+        return http.patch('/user', data)
     }
 }

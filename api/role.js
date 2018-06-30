@@ -1,11 +1,14 @@
-import http, { handler } from '~/http'
+import http, { fetchData } from '~/http'
 
 export default {
+
+    @fetchData
     list () {
-        return handler(http.get('/roles'))
+        return http.get('/roles')
     },
 
+    @fetchData
     get (code) {
-        return handler(http.get(`/roles/${code}`))
+        return http.get(`/roles/${code}`)
     }
 }

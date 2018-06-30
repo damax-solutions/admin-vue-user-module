@@ -1,27 +1,33 @@
-import http, { handler } from '~/http'
+import http, { fetchData } from '~/http'
 
 export default {
+
+    @fetchData
     list (page) {
         const params = { page }
 
-        return handler(http.get('/users', { params }))
+        return http.get('/users', { params })
     },
 
+    @fetchData
     get (id) {
-        return handler(http.get(`/users/${id}`))
+        return http.get(`/users/${id}`)
     },
 
+    @fetchData
     enable (id) {
-        return handler(http.put(`/users/${id}/enable`))
+        return http.put(`/users/${id}/enable`)
     },
 
+    @fetchData
     disable (id) {
-        return handler(http.delete(`/users/${id}/disable`))
+        return http.delete(`/users/${id}/disable`)
     },
 
+    @fetchData
     loginList (id, page) {
         const params = { page }
 
-        return handler(http.get(`/users/${id}/logins`, { params }))
+        return http.get(`/users/${id}/logins`, { params })
     }
 }
